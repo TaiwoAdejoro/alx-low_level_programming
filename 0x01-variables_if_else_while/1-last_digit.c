@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Print the last digit of the number stored in the variable n
+* main - Entry point
 *
-* Return: Always 0.
+* Return: Always 0 (Success/correct)
 */
 int main(void)
 {
@@ -25,4 +25,5 @@ else
 {
 printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 }
+
 return (0);
