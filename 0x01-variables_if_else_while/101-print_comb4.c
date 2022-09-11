@@ -19,7 +19,9 @@ putchar(a);
 putchar(b);
 putchar(c);
 if ((a == 23) && (b == a++) && (c == b++)
+{
 break;
+}
 putchar(',');
 putchar(' ');
 }
