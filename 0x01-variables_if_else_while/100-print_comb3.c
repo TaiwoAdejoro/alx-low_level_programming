@@ -18,8 +18,8 @@ putchar(x);
 putchar(y);
 if (x != 56 || y != 57)
 {
-purchar(',');
-putchar('');
+putchar(',');
+putchar(',');
 }
 }
 }
