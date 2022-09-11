@@ -18,7 +18,7 @@ for (c = b++; c <= 57; c++)
 putchar(a);
 putchar(b);
 putchar(c);
-if ((a == 23) && (b == a++) && (c == b++)
+if ((a == 23) && (b == a++) && (c == b++))
 {
 break;
 }
