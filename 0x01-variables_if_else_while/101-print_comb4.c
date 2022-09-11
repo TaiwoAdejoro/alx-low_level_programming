@@ -11,14 +11,14 @@ int b;
 int c;
 for (a = 48; a <= 57; a++)
 {
-for (b = a++; b <= 57; c++)
+for (b = a + 1; b <= 57; b++)
 {
-for (c = b++; c <= 57; c++)
+for (c = b + 1; c <= 57; c++)
 {
 putchar(a);
 putchar(b);
 putchar(c);
-if ((a == 23) && (b == a++) && (c == b++))
+if ((a == 23) && (b == a+1) && (c == b+1))
 {
 break;
 }
