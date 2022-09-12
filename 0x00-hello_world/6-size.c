@@ -1,17 +1,16 @@
 #include <stdio.h>
-
 /**
-* main - Entry point
+*main - main block
 *
-* Return: 0 if exited properly, non-zero otherwise
+*Return: Always 0.
 */
 int main(void)
 {
-printf("Size of a char: %lu byte(s)\n", sizeof(unsigned char));
-printf("Size of an int: %lu byte(s)\n", sizeof(unsigned int));
-printf("Size of a long int: %lu byte(s)\n", sizeof(unsigned long int));
-printf("Size of a long long int: %lu byte(s)\n", sizeof(unsigned long long int));
-printf("Size of a float: %lu byte(s)\n", sizeof(float));
+printf("Size of a char: %i byte(s)\n", sizeof(char));
+printf("Size of an int: %i byte(s)\n", sizeof(int));
+printf("Size of a long int: %i byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %i byte(s)\n", sizeof(long long int));
+printf("Size of a float: %i byte(s)\n", sizeof(float));
 return (0);
 }
 
