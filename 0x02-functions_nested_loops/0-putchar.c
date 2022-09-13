@@ -1,17 +1,17 @@
-#include "main.h"
+#include "stdio.h"
 /**
-* main - Entry point
-*
+*main - Entry point
+* 
 * Return - Always 0.
 */
 int main(void)
 {
-char church[10] = "_putchar";
+char farm[10] = "_putchar";
 int i;
 for (i = 0; i < 8; i++)
 {
-_putchar(church[i]);
+putchar(farm[i]);
 }
-_putchar(10);
+putchar(10);
 return (0);
 }
