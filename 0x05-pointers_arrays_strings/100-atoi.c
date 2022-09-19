@@ -27,14 +27,14 @@ int _atoi(char *s)
 
 		if (s[a] >= '0' && s[a] <= '9')
 		{
-			digit = s[a] - '0';
+			num = s[a] - '0';
 			if (b % 2)
-				digit = -digit;
-			c = c * 10 + digit;
+				num = -num;
+			c = c * 10 + num;
 			d = 1;
 			if (s[a + 1] < '0' || s[a + 1] > '9')
 				break;
-			f = d;
+			d = 0;
 		}
 		a++;
 	}
