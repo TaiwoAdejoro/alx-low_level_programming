@@ -15,11 +15,11 @@ char *rot13(char *s)
 
 	for (j = 0; s[j] != '\0'; j++)
 	{
-		for (k = 0; a[k] != '\0'; k++)
+		for (k = 0; x[k] != '\0'; k++)
 		{
-			if (s[j] == a[k])
+			if (s[j] == x[k])
 			{
-				s[j] = b[k];
+				s[j] = y[k];
 				break;
 			}
 		}
